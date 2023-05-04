@@ -33,6 +33,7 @@ export default function App(props: AppProps) {
 
   const [isHydrated, setIsHydrated] = useState(false);
 
+
   //Wait till NextJS rehydration completes
   useEffect(() => {
     setIsHydrated(true);

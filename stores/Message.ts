@@ -25,7 +25,7 @@ export function truncateMessages(
 
   if (!userMaxTokens) {
     // Try to reserve some room for the model output by default
-    userMaxTokens = 1024;
+    userMaxTokens = 720;
   }
   const targetTokens = modelMaxTokens - userMaxTokens;
 

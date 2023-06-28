@@ -26,7 +26,6 @@ export const modelInfos: Record<
     maxTokens: 16384,
     costPer1kTokens: { prompt: 0.003, completion: 0.004 },
   },
-};
   "gpt-4": {
     displayName: "GPT-4",
     maxTokens: 8192,
